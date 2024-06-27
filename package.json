@@ -1,0 +1,28 @@
+{
+  "name": "nodemysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mysql": "^2.15.26",
+    "@types/node": "^20.12.12",
+    "body-parser": "^1.20.2",
+    "chart.js": "^4.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "firebase": "^10.12.2",
+    "firebase-admin": "^12.1.1",
+    "mysql": "^2.18.1",
+    "ng2-charts": "^6.0.1",
+    "nodemon": "^3.1.1",
+    "qrcode": "^1.5.3"
+  }
+}
